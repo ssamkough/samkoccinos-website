@@ -1,6 +1,6 @@
 // functions
-const randomColor = () => "#" + Math.random().toString(16).substr(-6);
-const changeColor = () => (document.body.style.backgroundColor = randomColor());
+// const randomColor = () => "#" + Math.random().toString(16).substr(-6);
+// const changeColor = () => (document.body.style.backgroundColor = randomColor());
 const playHamAudio = () => {
   let audioElem = document.getElementById("ham-audio");
   audioElem.play();
@@ -18,15 +18,12 @@ document.onreadystatechange = () => {
       "yaga-doobie-audio-button"
     );
 
-    // functions
-    changeColor();
-
     // add listeners
     hamAudioButton.addEventListener("click", playHamAudio);
     yagaDoobieAudioButton.addEventListener("click", playYagaDoobieAudio);
   }
 };
 
-setInterval(() => {
-  changeColor();
-}, 400);
+// setInterval(() => {
+//   changeColor();
+// }, 1000);

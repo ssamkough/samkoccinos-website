@@ -1,44 +1,112 @@
+/* --- SELECTORS --- */
 * {
   margin: 0;
   padding: 0;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-body {
-  transition: background 0.2s;
-  overflow-x: hidden;
+/* --- GENERAL --- */
+.outer-container {
+  height: 100vh;
+  width: 100vw;
 }
 
+.inner-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page-body {
+  display: flex;
+  flex-grow: 2;
+  flex-wrap: wrap;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.page-links li {
+  float: left;
+}
+
+.page-links li a {
+  color: red;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.page-links li a:hover {
+  background-color: green;
+}
+
+.socials li {
+  float: right;
+}
+
+.socials li a {
+  color: olive;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.socials li a:hover {
+  background-color: orchid;
+}
+
+/* --- PAGES --- */
+/* home */
+#home-body {
+  justify-content: center;
+  align-items: center;
+}
+
+#home-body h3 {
+  margin-bottom: 5vw;
+}
+
+/* family */
+#family-body ul {
+  list-style-type: none;
+}
+
+/* clothing */
+.clothing-item {
+  display: inline-table;
+  margin: 20px;
+  border: 3px solid black;
+}
+
+.clothing-item img {
+  padding: 20px;
+  max-width: 250px;
+}
+
+.clothing-item p {
+  text-align: center;
+}
+
+/* religion */
 @keyframes rotateRight {
   100% {
     transform: rotate(360deg);
   }
 }
 
-#outer-container {
-  height: 100vh;
-  width: 100vw;
-}
-
-#inner-container {
-  height: 100%;
-  width: 100%;
-}
-
-#audio-button-group {
-  display: inline;
-  border: 5px solid purple;
-  background: black;
-}
-
-#audio-button-group button {
-  background: yellow;
-}
-
 #read-the-quran-pls {
-  position: absolute;
-  top: 25%;
-  left: 40%;
+  justify-content: center;
+  align-items: center;
 }
 
 #read-the-quran-pls img {
@@ -46,15 +114,14 @@ body {
 }
 
 #read-the-quran-pls h1 {
-  margin-top: 50px;
-  color: red;
-  background: black;
+  margin-left: 10vw;
 }
 
 .petey-plant {
   max-width: 25%;
 }
 
+/* --- DEVICES --- */
 /* Extra small devices (i.e. portrait phones) */
 @media (max-width: 575.98px) {
   #audio-button-group button {
