@@ -195,6 +195,31 @@
   text-align: center;
 }
 
+/* podcast */
+.podcast-description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.podcast-links {
+  list-style-type: none;
+}
+
+.podcast-links li {
+  float: right;
+}
+
+.podcast-links li a {
+  color: palevioletred;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.podcast-links li a:hover {
+  color: palegreen;
+}
+
 /* religion */
 @keyframes rotateRight {
   100% {
