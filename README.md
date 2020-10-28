@@ -11,6 +11,4 @@ Visita il lussuoso sito web della famiglia Samkoccinos.
 
 ## Todo 🔫
 
-- position absolute all the things (images and such)
 - add family tree
-- add clothing store
