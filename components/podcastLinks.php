@@ -21,7 +21,7 @@
         <a
         target="_blank"
         rel="noopener noreferrer"
-        href="https://podcasters.spotify.com/"
+        href="https://open.spotify.com/show/56TfQACbupkFUQYZNC"
         >spotify</a
         >
     </li>
