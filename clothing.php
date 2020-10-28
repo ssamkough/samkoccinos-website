@@ -5,7 +5,7 @@
       <div id="clothing-inner-container" class="inner-container">
         <div class="page-header">
           <h1>clothing</h1>
-          <h3>clothes are not for sale (as of now)</h3>
+          <h3>clothes are not for sale (for now)</h3>
         </div>
         <div class="page-body">
           <div class="clothing-item">
