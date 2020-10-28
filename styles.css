@@ -81,6 +81,104 @@
   list-style-type: none;
 }
 
+#members-body ul li {
+  padding: 10px;
+}
+
+#members-body ul li button {
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  padding: 20px;
+}
+
+.member-content {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  border: solid 1px black;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.member-close-btn {
+  float: right;
+}
+
+.member-content-body {
+  align-items: flex-start;
+}
+
+#member-adamccini button {
+  color: #02aef0;
+}
+
+#member-adamccini button:hover {
+  background-color: peru;
+}
+
+#member-adoptinni button {
+  color: #2ab871;
+}
+
+#member-adoptinni button:hover {
+  background-color: palevioletred;
+}
+
+#member-mario button {
+  color: #dc143c;
+}
+
+#member-mario button:hover {
+  background-color: palegoldenrod;
+}
+
+#member-nourioli button {
+  color: #77dd77;
+}
+
+#member-nourioli button:hover {
+  background-color: pink;
+}
+
+#member-robbhetti button {
+  color: #ff33ff;
+}
+
+#member-robbhetti button:hover {
+  background-color: #89ded3;
+}
+
+#member-salami button {
+  color: #cccc00;
+}
+
+#member-salami button:hover {
+  background-color: purple;
+}
+
+#member-tambiano button {
+  color: #34eb55;
+}
+
+#member-tambiano button:hover {
+  background-color: blueviolet;
+}
+
+#member-zaghetti button {
+  color: #31196e;
+}
+
+#member-zaghetti button:hover {
+  background-color: #9cffaa;
+}
+
 /* clothing */
 .clothing-item {
   display: inline-table;
@@ -104,21 +202,14 @@
   }
 }
 
-#read-the-quran-pls {
+#holy-book {
   justify-content: center;
   align-items: center;
 }
 
-#read-the-quran-pls img {
-  animation: 2s rotateRight infinite linear;
-}
-
-#read-the-quran-pls h1 {
-  margin-left: 10vw;
-}
-
-.petey-plant {
-  max-width: 25%;
+#holy-book img {
+  animation: 5s rotateRight infinite linear;
+  max-width: 500px;
 }
 
 /* --- DEVICES --- */
