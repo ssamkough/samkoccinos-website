@@ -12,3 +12,4 @@ Visita il lussuoso sito web della famiglia Samkoccinos.
 ## Todo 🔫
 
 - add family tree
+- add games, anime page
