@@ -220,6 +220,37 @@
   color: palegreen;
 }
 
+.podcast-item {
+  display: inline-table;
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  max-width: 400px;
+}
+
+.podcast-published-date {
+  font-style: italic;
+}
+
+.podcast-item-links {
+  list-style-type: none;
+}
+
+.podcast-item-links li {
+  float: left;
+}
+
+.podcast-item-links li a {
+  color: palevioletred;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.podcast-item-links li a:hover {
+  color: palegreen;
+}
+
 /* religion */
 @keyframes rotateRight {
   100% {
