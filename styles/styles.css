@@ -147,6 +147,14 @@
   background-color: pink;
 }
 
+#member-ramietti button {
+  color: #ffffff;
+}
+
+#member-ramietti button:hover {
+  background-color: #000000;
+}
+
 #member-robbhetti button {
   color: #ff33ff;
 }
@@ -271,23 +279,11 @@
 /* --- DEVICES --- */
 /* Extra small devices (i.e. portrait phones) */
 @media (max-width: 575.98px) {
-  #audio-button-group button {
-    width: 400px;
-    height: 400px;
-  }
 }
 
 @media (max-width: 662.98px) {
-  #audio-button-group button {
-    width: 300px;
-    height: 300px;
-  }
 }
 
 /* Small devices (i.e. landscape phones) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  #audio-button-group button {
-    width: 200px;
-    height: 200px;
-  }
 }

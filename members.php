@@ -14,6 +14,7 @@
                 array("member-adoptinni", "adoptinni",  "the squeakiest", "https://twitter.com/FortniteGame"),
                 array("member-mario", "mario",  "the memeiest", "https://twitter.com/TiggerCult"),
                 array("member-nourioli", "nourioli",  "the stinkiest", "https://twitter.com/noursboynour"),
+                array("member-ramietti", "ramietti",  "the fakest", "https://twitter.com/RamiBazoqa"),
                 array("member-robbhetti", "robbhetti",  "the plantiest", "https://twitter.com/ssamkough"),
                 array("member-salami", "salami",  "the girliest", "https://twitter.com/ArianaGrande"),
                 array("member-tambiano", "tambiano",  "the angriest", "https://twitter.com/tambiano1"),
