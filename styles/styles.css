@@ -65,6 +65,10 @@
   background-color: orchid;
 }
 
+.underlined-text {
+  text-decoration: underline;
+}
+
 /* --- PAGES --- */
 /* home */
 #home-body {
@@ -257,6 +261,20 @@
 
 .podcast-item-links li a:hover {
   color: palegreen;
+}
+
+/* games */
+.game-item {
+  display: inline-table;
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  max-width: 500px;
+}
+
+.game-img {
+  max-width: 200px;
+  padding: 20px;
 }
 
 /* religion */
