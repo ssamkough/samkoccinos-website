@@ -13,7 +13,7 @@
           <div class="gameitems">
             <?php
               $gameItems = array(
-                array("Minecraft", "mario", "./../assets/games/games-minecraft.jpg"),
+                array("Minecraft", "definitely not ramietti", "./../assets/games/games-minecraft.jpg"),
                 array("Smash Ultimate", "adamccini", "./../assets/games/games-ssbu.jpg"),
                 array("Krunker", "zaghetti", "./../assets/games/games-krunker.jpg"),
                 array("Rainbow Six Siege", "zaghetti, mario", "./../assets/games/games-rainbow-six-siege.jpg"),
