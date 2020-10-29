@@ -21,6 +21,7 @@ Visita il lussuoso sito web della famiglia Samkoccinos.
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Running PHP Locally (after PHP 5.4)](https://stackoverflow.com/questions/1678010/php-server-on-local-machine/21872484#21872484)
 - [Force browser refresh with PHP](https://stackoverflow.com/a/11474504)
+- [Continuous deployment using GitHub Action](https://www.youtube.com/watch?v=kuMlWBwsI7A)
 
 ## Todo 🔫
 

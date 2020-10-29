@@ -14,13 +14,16 @@
             <?php
               $gameItems = array(
                 array("Minecraft", "mario", "./../assets/games/games-minecraft.jpg"),
-                array("Super Smash Bros. Ultimate", "adamccini", "./../assets/games/games-ssbu.jpg"),
+                array("Smash Ultimate", "adamccini", "./../assets/games/games-ssbu.jpg"),
                 array("Krunker", "zaghetti", "./../assets/games/games-krunker.jpg"),
                 array("Rainbow Six Siege", "zaghetti, mario", "./../assets/games/games-rainbow-six-siege.jpg"),
                 array("Rocket League", "zaghetti", "./../assets/games/games-rocket-league.jpg"),
                 array("Dota 2", "mario", "./../assets/games/games-dota2.jpg"),
-                array("Among Us", "nourioli", "./../assets/games/games-among-us.jpg"),
-                array("Rust", "zaghetti", "./../assets/games/games-rust.jpg"));
+                array("Rust", "zaghetti", "./../assets/games/games-rust.jpg"),
+                array("Haxball", "tambiano", "./../assets/games/games-haxball.png"),
+                array("GTA V", "robbhetti", "./../assets/games/games-gtav.png"),
+                array("Dark Souls III", "nourioli", "./../assets/games/games-dark-souls3.jpg"),
+                array("Among Us", "nourioli", "./../assets/games/games-among-us.jpg"));
 
               for ($i = 0; $i < count($gameItems); $i++) {
                 $gameNum = $i + 1;
