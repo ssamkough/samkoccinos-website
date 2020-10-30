@@ -13,7 +13,7 @@
           <div class="gameitems">
             <?php
               $gameItems = array(
-                array("Minecraft", "definitely not ramietti", "./../assets/games/games-minecraft.jpg"),
+                array("Minecraft", "not ramietti", "./../assets/games/games-minecraft.jpg"),
                 array("Smash Ultimate", "adamccini", "./../assets/games/games-ssbu.jpg"),
                 array("Krunker", "zaghetti", "./../assets/games/games-krunker.jpg"),
                 array("Rainbow Six Siege", "zaghetti, mario", "./../assets/games/games-rainbow-six-siege.jpg"),
@@ -23,6 +23,7 @@
                 array("Haxball", "tambiano", "./../assets/games/games-haxball.png"),
                 array("GTA V", "robbhetti", "./../assets/games/games-gtav.png"),
                 array("Dark Souls III", "mario", "./../assets/games/games-dark-souls3.jpg"),
+                array("Luigi's Mansion", "nourioli", "./../assets/games/games-luigis-mansion.jpg"),
                 array("Among Us", "adoptinni, nourioli", "./../assets/games/games-among-us.jpg"));
 
               for ($i = 0; $i < count($gameItems); $i++) {
