@@ -29,4 +29,4 @@ Visita il lussuoso sito web della famiglia Samkoccinos.
 - find a way that it removes the ".php" for pages
 - figure out ci/cd
 - add family tree
-- add games, anime page
+- add anime, speed records, trivia, honorary samkoccinos to website
