@@ -208,7 +208,7 @@
 }
 
 /* podcast */
-.podcast-description {
+.podcast-page-description {
   display: flex;
   justify-content: space-between;
 }
@@ -238,6 +238,10 @@
   padding: 10px;
   border: 2px solid black;
   max-width: 400px;
+}
+
+.podcast-item-description {
+  padding: 10px;
 }
 
 .podcast-published-date {
@@ -309,6 +313,18 @@
     font-size: 3.5vw;
   }
 
+  .page-links li {
+    padding: 5px;
+  }
+
+  .page-links li a {
+    padding: 5px;
+  }
+
+  .socials li a {
+    padding: 5px;
+  }
+
   #holy-book img {
     max-width: 50%;
   }
@@ -318,5 +334,24 @@
 }
 
 /* small devices (i.e. landscape phones) */
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 576px) and (max-width: 768.1px) {
+  .nav {
+    font-size: 2vw;
+  }
+
+  .page-links li {
+    padding: 5px;
+  }
+
+  .page-links li a {
+    padding: 5px;
+  }
+
+  .socials li a {
+    padding: 5px;
+  }
+
+  #holy-book img {
+    max-width: 30%;
+  }
 }

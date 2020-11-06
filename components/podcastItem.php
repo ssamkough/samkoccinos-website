@@ -4,7 +4,7 @@
         <h3 class=\"podcast-title\">$podcastTitle - Samkoccinos #$podcastNum</h3>
         <hr />
         <p class=\"podcast-published-date\">$podcastDate</p>
-        <p class=\"podcast-description\">$podcastDescription</p>
+        <p class=\"podcast-item-description\">$podcastDescription</p>
         <hr />
         <ul class=\"podcast-item-links\">
             <li><a class=\"podcast-spotify-link\" href=\"$podcastSpotify\">Spotify</a></li>

@@ -5,7 +5,7 @@
       <div id="podcast-inner-container" class="inner-container">
         <div class="page-header">
           <h1>podcast</h1>
-          <div class="podcast-description">
+          <div class="podcast-page-description">
             <h3>a bunch of nerds that like to geek out with others</h3>
             <?php include './components/podcastLinks.php'; ?>
           </div>

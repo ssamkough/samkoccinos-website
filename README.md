@@ -25,8 +25,6 @@ Visita il lussuoso sito web della famiglia Samkoccinos.
 
 ## Todo 🔫
 
-- make sure it looks good on mobile
-- find a way that it removes the ".php" for pages
-- figure out ci/cd
 - add family tree
 - add anime, speed records, trivia, honorary samkoccinos to website
+- find a way that it removes the ".php" for pages
