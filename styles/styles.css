@@ -267,6 +267,14 @@
   color: palegreen;
 }
 
+/* podcast item */
+#podcast-item-inner-container {
+}
+
+.podcast-image-page {
+  margin: 20px;
+}
+
 /* games */
 .game-item {
   display: inline-table;

@@ -20,11 +20,13 @@
         <itunes:category text="Leisure" />
         <itunes:explicit>yes</itunes:explicit>
         <item>
-            <title>test</title>
-            <link>https://samkoccinos.family/podcast.php</link>
+            <title>JebTube - Samkoccinos #1</title>
+            <author>samkoccinos@gmail.com</author>
+            <link>https://samkoccinos.family/podcastItems/1.php</link>
             <pubDate>Sun, 8 Nov 2020 15:00:00 +0000</pubDate>
-            <guid>https://samkoccinos.family/podcast.php</guid>
-            <description></description>
+            <guid>https://samkoccinos.family/podcastItems/1.php</guid>
+            <description>Geeking out with JebTube, an analysis YouTuber covering video games (mostly Sega as to date).</description>
+            <source></source>
         </item>
     </channel>
 </rss>

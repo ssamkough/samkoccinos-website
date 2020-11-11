@@ -26,8 +26,8 @@
                 $podcastGoogle = $podcastItems[$i][4];
                 $podcastApple = $podcastItems[$i][5];
                 $podcastYoutube = $podcastItems[$i][6];
-                $podcastMoreInfo = $podcastItems[$i][7];
-                include 'components/podcastItem.php';
+                $podcastMoreInfo = './podcastItems/' . $podcastNum . '.php';
+                include './components/podcastItem.php';
               }
             ?>
           </div>
