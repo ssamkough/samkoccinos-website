@@ -8,7 +8,7 @@
             <h2 class="podcast-title-page">JebTube - Samkoccinos #1</h2>
             <h3 class="podcast-published-date-page">Sunday, November 8</h3>
             <p class="podcast-item-description-page"></p>Geeking out with JebTube, an analysis YouTuber covering video games (mostly Sega as to date).
-            <img class="podcast-image-page" alt="Samkcoccinos/JebTube Art Cover" src="./assets/podcastItemArt001.png" />
+            <img class="podcast-image-page" alt="Samkcoccinos/JebTube Art Cover" src="./assets/artwork/podcastItemArt001.png" />
             <ul class="podcast-item-links">
                 <li><a class="podcast-spotify-link" href="$podcastSpotify">Spotify</a></li>
                 <li><a class="podcast-google-link" href="$podcastGoogle">Google</a></li>

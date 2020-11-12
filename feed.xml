@@ -9,9 +9,10 @@
         <image>
             <title>samkoccinos podcast</title>
             <link>https://samkoccinos.family/podcast.php</link>
-            <url>https://samkoccinos.family/assets/samkoccinos-profile.png</url>
+            <url>https://samkoccinos.family/assets/dark-souls-plant.png</url>
         </image>
         <category>Leisure</category>
+        <dc:creator>samkoccinos</dc:creator>
         <itunes:author>samkoccinos</itunes:author>
         <itunes:owner>
             <itunes:name>samkoccinos</itunes:name>
@@ -23,6 +24,8 @@
             <title>JebTube - Samkoccinos #1</title>
             <author>samkoccinos@gmail.com</author>
             <link>https://samkoccinos.family/podcastItems/1.php</link>
+            <enclosure url="https://samkoccinos.family/podcastItems/assets/audio/podcastItemAudio001.mp3" length="137760000" type="audio/mpeg" />
+            <media:content url="https://drive.google.com/file/d/1eft_DDUDijAzaB6QnNFQqiMpUq_IGFZl/view?usp=sharing" type="audio/mpeg" length="137760000" medium="audio" lang="en-US" />
             <pubDate>Sun, 8 Nov 2020 15:00:00 +0000</pubDate>
             <guid>https://samkoccinos.family/podcastItems/1.php</guid>
             <description>Geeking out with JebTube, an analysis YouTuber covering video games (mostly Sega as to date).</description>

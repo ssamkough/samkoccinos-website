@@ -22,6 +22,9 @@ Visita il lussuoso sito web della famiglia Samkoccinos.
 - [Running PHP Locally (after PHP 5.4)](https://stackoverflow.com/questions/1678010/php-server-on-local-machine/21872484#21872484)
 - [Force browser refresh with PHP](https://stackoverflow.com/a/11474504)
 - [Continuous deployment using GitHub Action](https://www.youtube.com/watch?v=kuMlWBwsI7A)
+- Example RSS feeds
+  - [Joe Rogan](http://podcasts.joerogan.net/feed)
+  - [Tiny Meat Gang](https://audioboom.com/channels/5024507.rss)
 
 ## Todo 🔫
 
