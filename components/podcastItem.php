@@ -11,6 +11,7 @@
             <li><a class=\"podcast-spotify-link\" href=\"$podcastSpotify\">Spotify</a></li>
             <li><a class=\"podcast-apple-link\" href=\"$podcastApple\">Apple</a></li>
             <li><a class=\"podcast-google-link\" href=\"$podcastGoogle\">Google</a></li>
+            <li><a class=\"podcast-soundcloud-link\" href=\"$podcastSoundcloud\">SoundCloud</a></li>
             <li><a class=\"podcast-link\" href=\"$podcastMoreInfo\">More Info</a></li> 
         </ul>
     </div> ";

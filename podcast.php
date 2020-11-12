@@ -22,10 +22,11 @@
                 $podcastTitle = $podcastItems[$i][0];
                 $podcastDate = $podcastItems[$i][1];
                 $podcastDescription = $podcastItems[$i][2];
-                $podcastSpotify = $podcastItems[$i][3];
-                $podcastGoogle = $podcastItems[$i][4];
+                $podcastYoutube = $podcastItems[$i][3];
+                $podcastSpotify = $podcastItems[$i][4];
                 $podcastApple = $podcastItems[$i][5];
-                $podcastYoutube = $podcastItems[$i][6];
+                $podcastGoogle = $podcastItems[$i][6];
+                $podcastSoundcloud = $podcastItems[$i][7];
                 $podcastMoreInfo = './podcastItems/' . $podcastNum . '.php';
                 include './components/podcastItem.php';
               }

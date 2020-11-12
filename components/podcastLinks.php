@@ -8,6 +8,14 @@
         >
     </li>
     <li>
+        <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://open.spotify.com/show/56TfQACbupkFUQYZNC"
+        >spotify</a
+        >
+    </li>
+    <li>
         <a target="_blank" rel="noopener noreferrer" href=""
         >apple podcasts</a
         >
@@ -18,11 +26,8 @@
         >
     </li>
     <li>
-        <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://open.spotify.com/show/56TfQACbupkFUQYZNC"
-        >spotify</a
+        <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/samkoccinos"
+        >soundcloud</a
         >
     </li>
 </ul>
