@@ -15,7 +15,7 @@
             <?php
               $podcastItems = array(
                 array("JebTube", "Sunday, November 8",  "Geeking out with JebTube, an analysis YouTuber covering video games (mostly Sega as to date).", 
-                "", "", "", "", ""));
+                "https://youtu.be/PDBeh03kq-8", "https://open.spotify.com/episode/29GunkZ6FijoA4FJAdy8cM?si=KoaFVR35SXaGkoKN5slfMw", "https://podcasts.apple.com/us/podcast/jebtube-samkoccinos-1/id1540023862?i=1000498237747", "", "https://soundcloud.com/samkoccinos/samkoccinos-podcast-001-jebtube-audio"));
 
               for ($i = 0; $i < count($podcastItems); $i++) {
                 $podcastNum = $i + 1;
