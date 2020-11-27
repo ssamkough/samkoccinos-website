@@ -31,3 +31,4 @@ Visita il lussuoso sito web della famiglia Samkoccinos.
 - add family tree
 - add anime, speed records, trivia, honorary samkoccinos to website
 - find a way that it removes the ".php" for pages
+- make everything lowercase on samkoccinos site
