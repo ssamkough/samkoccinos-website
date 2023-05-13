@@ -1,1 +1,0 @@
-<script src="./../scripts/functions.js<?php echo '?v='.mt_rand(); ?>"></script>

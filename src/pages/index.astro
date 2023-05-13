@@ -1,0 +1,106 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const MOVIES = [
+  {
+    picker: "sammy",
+    title: "goodbye, dragon inn",
+    dates_voted_on: ["2023-05-12"],
+  },
+  {
+    picker: "marej",
+    title: "pusher",
+    dates_voted_on: ["2023-05-12"],
+  },
+  {
+    picker: "adam",
+    title: "ballad of a solider",
+    dates_voted_on: ["2023-04-28", "2023-05-12"],
+  },
+  {
+    picker: "zak",
+    title: "initial D",
+    dates_voted_on: ["2023-04-28", "2023-05-12"],
+  },
+  {
+    picker: "marej",
+    title: "oslo august 31st",
+    dates_voted_on: ["2023-04-28"],
+    has_been_watched: true,
+  },
+];
+---
+
+<Layout title="samkoccinos">
+  <main>
+    <h1>samkoccinos</h1>
+    <date>2023-05-12</date>
+    <hr />
+    <ul>
+      <li>
+        <span style="flex: 1">title</span>
+        <span>handicap</span>
+        <span>a</span>
+        <span>m</span>
+        <span>s</span>
+        <span>z</span>
+      </li>
+      {
+        MOVIES.filter((movie) => !movie?.has_been_watched)
+          .sort((a, b) => (a.picker < b.picker ? -1 : 1))
+          .map((movie) => (
+            <li>
+              <h4>{movie.title}</h4>
+              <div>
+                <span>{`${
+                  movie.dates_voted_on.length > 0
+                    ? `-${movie.dates_voted_on.length - 1}`
+                    : ""
+                }`}</span>
+                {["", "", "", ""].map(() => (
+                  <span>
+                    <input type="number" />
+                  </span>
+                ))}
+              </div>
+            </li>
+          ))
+      }
+    </ul>
+    <hr />
+    <ul>
+      <li>adam: <mark>1 + 2 + 4 + 3 + -1 = 9</mark></li>
+      <li>marej: <mark>2 + 1 + 2 + 4 = 9</mark></li>
+      <li>sammy: <mark>4 + 3 + 1 + 2 = 10</mark></li>
+      <li>zak: <mark>3 + 4 + 3 + 1 + -1 = 10</mark></li>
+	  handicap rule, adam wins!
+    </ul>
+  </main>
+</Layout>
+
+<style>
+  main {
+    padding: 20px;
+  }
+  h1 {
+    margin-bottom: 10px;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  ul :not(:last-child) {
+    margin-bottom: 14px;
+  }
+  li {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+  }
+  input[type="number"] {
+    height: 30px;
+    width: 30px;
+  }
+</style>
