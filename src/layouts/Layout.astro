@@ -11,12 +11,15 @@ const { title } = Astro.props;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
   <body>
-    <slot />
+    <main>
+      <h1 id="title">{title}</h1>
+      <slot />
+    </main>
   </body>
 </html>
 <style is:global>
@@ -30,11 +33,11 @@ const { title } = Astro.props;
     height: 100%;
     padding: 0;
     margin: 0;
-    font-size: 2em;
+    font-size: 1.4em;
   }
   span {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
   }
   h1,
   h2,
@@ -44,5 +47,11 @@ const { title } = Astro.props;
   h6 {
     padding: 0;
     margin: 0;
+  }
+  main {
+    padding: 20px;
+  }
+  #title {
+    padding-bottom: 10px;
   }
 </style>
