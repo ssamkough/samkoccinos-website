@@ -1,0 +1,31 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const MUSIC = [
+  {
+    picker: "sammy",
+    title: "leak 04-13 (bait ones)",
+    date_started: ["2023-10-20"],
+    artist: "jai paul",
+  },
+];
+---
+
+<Layout title="music">
+  <ul>
+    {
+      MUSIC.map(({ picker, title, date_started, artist }) => (
+        <li>
+          {title}
+          <ul>
+            <li>picked by: {picker}</li>
+            <li>date start: {date_started}</li>
+            <li>artist: {artist}</li>
+          </ul>
+        </li>
+      ))
+    }
+  </ul>
+</Layout>
+
+<style></style>

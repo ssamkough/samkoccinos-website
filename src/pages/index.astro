@@ -1,32 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
-
-const MOVIES = [
-  {
-    picker: "adam",
-    title: "the mirror",
-    date_watched: ["2023-10-20"],
-    director: "andrei tarkovsky",
-  },
-];
 ---
 
-<Layout title="samkoccinos">
-  <h4>movies watched</h4>
-  <ul>
-    {
-      MOVIES.map(({ picker, title, date_watched, director }) => (
-        <li>
-          {title}
-          <ul>
-            <li>picked by: {picker}</li>
-            <li>date watched: {date_watched}</li>
-            <li>director: {director}</li>
-          </ul>
-        </li>
-      ))
-    }
-  </ul>
+<Layout title="home">
+  welcome to the samkoccinos website :)
 </Layout>
 
 <style></style>
