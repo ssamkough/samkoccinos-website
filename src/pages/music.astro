@@ -44,7 +44,7 @@ const MUSIC = [
 <Layout title="music">
   <ul>
     {
-      MUSIC.map(({ picker, title, date_started, artist }) => (
+      MUSIC.reverse().map(({ picker, title, date_started, artist }) => (
         <li>
           {title}
           <ul>

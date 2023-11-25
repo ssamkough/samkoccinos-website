@@ -20,7 +20,7 @@ const MOVIES = [
 <Layout title="movies">
   <ul>
     {
-      MOVIES.map(({ picker, title, date_watched, director }) => (
+      MOVIES.reverse().map(({ picker, title, date_watched, director }) => (
         <li>
           {title}
           <ul>
