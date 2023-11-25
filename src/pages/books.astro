@@ -1,0 +1,35 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const BOOKS = [
+  {
+    picker: "sammy",
+    title: "the qur'an",
+    date_started: ["2023-08"],
+  },
+];
+---
+
+<Layout title="books">
+  <p>
+    this isnt as big as music or movies, but we also have our own book club of
+    sorts.
+  </p>
+  <p>here's the list of all books:</p>
+  <ul>
+    {
+      BOOKS.reverse().map(({ title, picker, date_started }) => (
+        <li>
+          {title}
+          <ul>
+            <li>title: {title}</li>
+            <li>picked by: {picker}</li>
+            <li>date started: {date_started}</li>
+          </ul>
+        </li>
+      ))
+    }
+  </ul>
+</Layout>
+
+<style></style>
