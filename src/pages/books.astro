@@ -4,8 +4,9 @@ import Layout from "../layouts/Layout.astro";
 const BOOKS = [
   {
     picker: "sammy",
-    title: "the qur'an",
+    title: "the quran",
     date_started: ["2023-08"],
+    author: "alan jones (translator)"
   },
 ];
 ---
@@ -18,12 +19,12 @@ const BOOKS = [
   <p>here's the list of all books:</p>
   <ul>
     {
-      BOOKS.reverse().map(({ title, picker, date_started }) => (
+      BOOKS.reverse().map(({ title, picker, date_started, author }) => (
         <li>
           {title}
           <ul>
-            <li>title: {title}</li>
             <li>picked by: {picker}</li>
+            <li>author: {author}</li>
             <li>date started: {date_started}</li>
           </ul>
         </li>
