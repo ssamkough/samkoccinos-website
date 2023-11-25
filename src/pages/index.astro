@@ -1,7 +1,20 @@
 ---
 import Layout from "../layouts/Layout.astro";
+
+const MEMBERS = [
+  "adam", "dean", "marej", "nour", "rami", "salam", "sammy", "tambi", "zak"
+]
+
 ---
 
 <Layout title="home">
+  <p>
   welcome to the samkoccinos website :)
+  </p>
+  <p>
+    list of current samkoccinos:
+  </p>
+  <ul>
+    {MEMBERS.map((name) => <li>{name}</li>)}
+  </ul>
 </Layout>
