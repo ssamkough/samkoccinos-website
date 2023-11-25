@@ -1,0 +1,44 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const EVENTS = [
+{
+    event: "movie",
+    group_leader: "adam",
+    date_of: "2023-10-20",
+  },
+  {
+    event: "movie",
+    group_leader: "marej",
+    date_of: "2023-11-11",
+  },
+  {
+    event: "miscellaneous",
+    group_leader: "zak",
+    date_of: "2023-11-25",
+  },
+];
+---
+
+<Layout title="nights">
+  <p>
+    every samkoccino night there's a group leader that decides what we do for the night.
+  </p>
+  <p>historically, it's always been a movie. but it is now open to other events.</p>
+  <p>here's the list of all events:</p>
+  <ul>
+    {
+      EVENTS.reverse().map(({ event, group_leader, date_of }) => (
+        <li>
+          {event}
+          <ul>
+            <li>group leader: {group_leader}</li>
+            <li>date of: {date_of}</li>
+          </ul>
+        </li>
+      ))
+    }
+  </ul>
+</Layout>
+
+<style></style>
