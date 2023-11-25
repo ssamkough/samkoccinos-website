@@ -1,5 +1,5 @@
 # samkoccinos website
-website for the samkoccinos :)
+website for the samkoccinos that contains information mainly relevant for the samkoccinos
 
 ## getting started
 
