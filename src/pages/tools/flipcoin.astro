@@ -1,0 +1,17 @@
+---
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="tools">
+  <button id="flipCoinButton">flip coin</button>
+  <p>value: <span id="value">n/a</span></p>
+
+  <script>
+    const button = document.getElementById("flipCoinButton");
+    button.addEventListener("click", () => {
+      document.getElementById("value").innerHTML = Math.round(Math.random());
+    });
+  </script>
+
+  <style></style>
+</Layout>
