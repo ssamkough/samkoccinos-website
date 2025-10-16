@@ -1,4 +1,6 @@
 ---
+import "../styles/styles.css";
+
 const PAGES = [
   { route: "", title: "home" },
   { route: "books", title: "books" },
@@ -14,7 +16,7 @@ export interface Props {
 const { title } = Astro.props;
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -23,14 +25,8 @@ const { title } = Astro.props;
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta name="generator" content={Astro.generator} />
     <meta property="og:title" content="samkoccinos" />
-    <meta
-      property="og:description"
-      content="website for the samkoccinos that contains information mainly relevant for the samkoccinos"
-    />
-    <meta
-      property="og:image"
-      content="/apple-touch-icon.png"
-    />
+    <meta property="og:description" content="website for the samkoccinos" />
+    <meta property="og:image" content="/apple-touch-icon.png" />
     <title>{title}</title>
   </head>
   <body>
@@ -43,42 +39,3 @@ const { title } = Astro.props;
     </main>
   </body>
 </html>
-<style is:global>
-  :root {
-  }
-  html {
-    font-family: Athelas, system-ui, sans-serif;
-    background-color: #f6f6f6;
-  }
-  body {
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    font-size: 1.4em;
-  }
-  span {
-    padding: 0;
-    margin: 0;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    padding: 0;
-    margin: 0;
-  }
-  main,
-  header {
-    padding: 20px 20px 0 20px;
-    overflow: scroll;
-  }
-  header {
-    display: flex;
-    gap: 16px;
-  }
-  ul {
-    margin-top: 0;
-  }
-</style>

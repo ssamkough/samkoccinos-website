@@ -1,0 +1,43 @@
+html {
+  font-family: WingDings, system-ui, sans-serif;
+  background-color: #f6f6f6;
+}
+
+body {
+  height: 100dvh;
+  padding: 0;
+  margin: 0;
+  font-size: 1.8em;
+  background: coral;
+  color: darkblue;
+}
+
+span {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+main,
+header {
+  padding: 20px 20px 0 20px;
+  overflow: scroll;
+}
+
+header {
+  display: flex;
+  gap: 16px;
+}
+
+ul {
+  margin-top: 0;
+}

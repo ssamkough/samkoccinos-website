@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "samkoccinos",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,6 +10,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.4.1"
+    "astro": "^5.14.5"
   }
 }
